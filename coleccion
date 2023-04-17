@@ -1,0 +1,59 @@
+books
+
+ID BSC001
+
+Campo                             tipe
+
+book_details                     map
+
+is_book_available               boolean                    true
+
+book_id                         string                         BSC001
+
+book_author                      string                          J.K Rolling
+
+book_name                        string                          H.P y la piedra filosofal
+
+pages                            number                       800
+
+price                          number                       1200
+
+
+
+
+
+students
+
+STG03801
+
+
+
+number_of_book                  number                     0
+
+student_details                  map
+
+grade                            number                    3
+
+roll_number                      number                    1
+
+section                         string                     B
+
+student_id                      string                     STG03B01
+
+student_name                    string                     Nancy Morales
+
+
+
+transactions
+
+0vCLru2TTMxFdA8lYDW
+
+
+
+book_id                       string                      BSC001
+
+book_name                string                      H.P y la piedra filosofal
+
+date                              string                      20 de noviembre 
+
+transaction_type         string                      emitido
