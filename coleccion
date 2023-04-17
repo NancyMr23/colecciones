@@ -2,21 +2,21 @@ books
 
 ID BSC001
 
-Campo                             tipe
+Campo                                tipe
 
-book_details                     map
+book_details                       map
 
 is_book_available               boolean                    true
 
-book_id                         string                         BSC001
+book_id                                string                         BSC001
 
-book_author                      string                          J.K Rolling
+book_author                       string                          J.K Rolling
 
-book_name                        string                          H.P y la piedra filosofal
+book_name                         string                          H.P y la piedra filosofal
 
-pages                            number                       800
+pages                                   number                       800
 
-price                          number                       1200
+price                                     number                       1200
 
 
 
@@ -24,23 +24,21 @@ price                          number                       1200
 
 students
 
-STG03801
+STG03B01
 
+number_of_book_issued     number                     0
 
+student_details             map
 
-number_of_book                  number                     0
+grade                       number                    3
 
-student_details                  map
+roll_number               number                    1
 
-grade                            number                    3
+section                      string                         B
 
-roll_number                      number                    1
+student_id                string                         STG03B01
 
-section                         string                     B
-
-student_id                      string                     STG03B01
-
-student_name                    string                     Nancy Morales
+student_name           string                          Nancy Morales
 
 
 
@@ -52,8 +50,8 @@ transactions
 
 book_id                       string                      BSC001
 
-book_name                string                      H.P y la piedra filosofal
+book_name                string                 H.P y la piedra filosofal
 
-date                              string                      20 de noviembre 
+date                     string                      20 de noviembre 
 
-transaction_type         string                      emitido
+transaction_type         string                  emitido
